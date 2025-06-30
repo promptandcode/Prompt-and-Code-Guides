@@ -1,11 +1,10 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Vibe Coding Guides
+description: A guide in your journey with vibe coding
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Here I collected around the internet about vibe coding best practices. This is an evolving space. Best practices relevant today might be outdated in 3 months later.
 
-## Further reading
+<!-- ## Further reading
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework -->

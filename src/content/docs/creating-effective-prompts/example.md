@@ -1,0 +1,134 @@
+---
+title: How Create Effective Prompts
+description: Based on suggestions from this guide https://v0.dev/chat/best-practice-prompt-guidelines-XGNF9QTzi5z
+---
+
+### Creating Effective AI Prompts: Best Practices
+
+Creating effective prompts is essential for getting the best results from AI models. Here's a comprehensive guide to crafting prompts that yield high-quality, relevant responses.
+
+## Core Principles of Effective Prompts
+
+### 1. Be Clear and Specific
+
+```plaintext
+❌ "Make a website"
+✅ "Create a responsive landing page for a coffee shop with a menu section, about us, and contact form using Next.js and Tailwind CSS"
+```
+
+### 2. Provide Context and Constraints
+
+```plaintext
+❌ "Write code for a login form"
+✅ "Create a React login form with email validation, password requirements, and error handling that matches modern design principles"
+```
+
+### 3. Structure Your Prompt
+
+Break complex prompts into sections:
+
+```plaintext
+TASK: Create a database schema
+CONTEXT: E-commerce application with users, products, orders
+REQUIREMENTS:
+- Must support user profiles with multiple addresses
+- Products have categories, inventory tracking
+- Order history and status tracking
+FORMAT: SQL statements with comments
+```
+
+## Advanced Techniques
+
+### 1. Role-Based Prompting
+
+Assign a specific role to the AI:
+
+```plaintext
+You are an experienced database architect specializing in e-commerce systems. 
+Design a PostgreSQL schema for an online marketplace with...
+```
+
+### 2. Few-Shot Learning
+
+Provide examples of desired outputs:
+
+```plaintext
+Convert these requirements into user stories:
+
+Example 1:
+Requirement: Users need to reset passwords
+User Story: As a registered user, I want to reset my password so that I can regain access to my account if I forget my credentials.
+
+Example 2:
+Requirement: Admin dashboard shows sales metrics
+User Story: As an administrator, I want to view key sales metrics on my dashboard so that I can quickly assess business performance.
+
+Now convert this requirement:
+Requirement: Customers can save items for later purchase
+```
+
+### 3. Chain of Thought Prompting
+
+For complex reasoning tasks, encourage step-by-step thinking:
+
+```plaintext
+Solve this optimization problem for a delivery route with 5 stops. 
+Think through each step of your approach:
+1. First, identify the constraints...
+2. Next, consider the possible routes...
+3. Then, calculate the efficiency of each...
+```
+
+## Prompt Templates for Common Tasks
+
+### For Code Generation
+
+```plaintext
+Create a [language] function that [specific functionality].
+
+Requirements:
+- [Requirement 1]
+- [Requirement 2]
+- [Requirement 3]
+
+The function should handle edge cases like [edge case].
+Include comments explaining your approach.
+```
+
+### For Design Tasks
+
+```plaintext
+Design a [component/page] for [specific purpose].
+
+Style guidelines:
+- Color scheme: [colors]
+- Typography: [font details]
+- Design system: [Material/Fluent/etc.]
+
+The design should be responsive and accessible.
+```
+
+### For Data Analysis
+
+```plaintext
+Analyze this dataset about [topic]:
+[data sample or description]
+
+Questions to answer:
+1. What are the key trends in [metric]?
+2. How does [variable A] correlate with [variable B]?
+3. What recommendations can be made based on this data?
+
+Include your reasoning for each conclusion.
+```
+
+## Common Pitfalls to Avoid
+
+1. **Vague instructions** - Be specific about what you want
+2. **Overloading with information** - Focus on what's essential
+3. **Contradictory requirements** - Ensure consistency in your requests
+4. **Missing constraints** - Specify limitations and boundaries
+5. **Assuming domain knowledge** - Provide necessary background information
+
+
+By following these best practices, you'll be able to craft prompts that consistently produce high-quality, relevant responses from AI models.

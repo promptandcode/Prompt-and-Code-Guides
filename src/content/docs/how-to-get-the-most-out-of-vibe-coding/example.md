@@ -3,7 +3,7 @@ title: How To Get The Most Out Of Vibe Coding
 description: Based on YC Startup School video featuring Tom Blomfield [Watch the video on YouTube](https://youtu.be/BJjsfNO5JTo)
 ---
 
-<iframe width="100%" height="3000" src="https://www.youtube.com/embed/BJjsfNO5JTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="width:100%;height:600px;" src="https://www.youtube.com/embed/BJjsfNO5JTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 

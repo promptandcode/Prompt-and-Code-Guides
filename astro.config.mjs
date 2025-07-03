@@ -8,6 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'Prompt and Code Guides',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://www.promptandcode.dev' }],
+			pagefind: true,
 			sidebar: [
 				{
 					label: 'Guides',

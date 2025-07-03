@@ -18,6 +18,12 @@ export default defineConfig({
 						{ label: 'Creating Effective Prompts', slug: 'creating-effective-prompts/example' },
 					],
 				},
+				{
+					label: 'Articles',
+					items: [
+						{ label: 'Cursor Tips for Product Manager', slug: 'cursor-tips-for-product-manager/example' },
+					],
+				},
 				// {
 				// 	label: 'Reference',
 				// 	autogenerate: { directory: 'reference' },

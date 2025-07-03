@@ -7,7 +7,6 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Prompt and Code Guides',
-			search: { enabled: false },
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://www.promptandcode.dev' }],
 			sidebar: [
 				{
